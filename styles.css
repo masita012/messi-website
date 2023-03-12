@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@600&display=swap');
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background: url(https://www.lahora.com.ec/wp-content/uploads/2022/10/LEO-MESSI.jpg) no-repeat center center/cover;
+    height: 109vh;
+}
+.left
+{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 50px;
+    font-size: 25px;
+    color: #004170;
+    letter-spacing: 2px;
+    font-family: 'Golos Text';
+}
+.center
+{
+    display: block;
+    margin: 47px 500px;
+    width: 56%;
+}
+.navbar
+{
+    display: inline-block;
+}
+.navbar li
+{
+    display: inline-block;
+}
+
+.navbar li a
+{
+    text-decoration: none;
+    color: #004170;
+    padding: 0px 20px;
+    font-size: 30px;
+    font-family: 'Golos Text';
+    transition: 0.6s ease-in-out;
+}
+.navbar li a:hover
+{
+    color: whitesmoke;
+}
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.content h1
+{
+    font-family: 'Golos Text';
+    letter-spacing: 2px;
+    font-size: 60px;
+    display: inline-block;
+    margin: 0px 20px;
+
+}
+.content p
+{
+    margin: 20px auto;
+    font-weight: 100%;
+    line-height: 25px;
+    font-family: 'Golos Text';
+    letter-spacing: 0.4px;
+}
+button
+{
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: 'Golos text';font-family: 'Golos text';
+    border: 2px solid #004170;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+span
+{
+    background: #004170;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    border-radius: 25px;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.6s ease-in-out;
+}
+button:hover span
+{
+    width: 100%;
+
+}
+button:hover
+{
+    border: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Golos text';
+    color: white;
+}
